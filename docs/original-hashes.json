@@ -1,0 +1,130 @@
+﻿[
+    {
+        "Path":  "D:\\NJU\\AgentHistoryManager\\.gitignore",
+        "Hash":  "C994ACE6BB01DFF01EB2520B0CF2F33EBA77B96B9AC0F6ED6FC6C214A8EE1126"
+    },
+    {
+        "Path":  "D:\\NJU\\AgentHistoryManager\\README.md",
+        "Hash":  "8CE34F958463E5B37833D9B9A9ACB022FC900BA84026EC920951BF59F8DB6214"
+    },
+    {
+        "Path":  "D:\\NJU\\AgentHistoryManager\\requirements.txt",
+        "Hash":  "6BF0878543432E36469E055D518D103D8C1E8632699CBD4AEFE5EA1EB1ACEDC3"
+    },
+    {
+        "Path":  "D:\\NJU\\AgentHistoryManager\\run.py",
+        "Hash":  "E3D0B7EED192714BB53C4B648AA73D44C1B712EA680B7CD316ADEAA1F528EC75"
+    },
+    {
+        "Path":  "D:\\NJU\\AgentHistoryManager\\backend\\api.py",
+        "Hash":  "B10E4D049A90ABBCE6576CC661A640247AEADF46BAF824029CD4CB103D2B17B4"
+    },
+    {
+        "Path":  "D:\\NJU\\AgentHistoryManager\\backend\\config.py",
+        "Hash":  "170AD8468D576D53F7C74D04101DBF000A2FFE5185B264DE78878AC0DC816CFD"
+    },
+    {
+        "Path":  "D:\\NJU\\AgentHistoryManager\\backend\\db.py",
+        "Hash":  "AEA0F79BBFD05082E0F5C9114845261A1D5008FAE5DB233B8BC32644FB523A5A"
+    },
+    {
+        "Path":  "D:\\NJU\\AgentHistoryManager\\backend\\ingest.py",
+        "Hash":  "B74030EA75109856183C7D163ABF1878AC51ACC3A083DD235EE903F5D46B5B38"
+    },
+    {
+        "Path":  "D:\\NJU\\AgentHistoryManager\\backend\\models.py",
+        "Hash":  "245B8D4D07A3F80283E578ED624921D798F8D296B35268A3AFBBBC815102FFCF"
+    },
+    {
+        "Path":  "D:\\NJU\\AgentHistoryManager\\backend\\sync.py",
+        "Hash":  "2E7E68E40E9DEDAF18D376809735546582E6A7668E0BC721F700D37E1751EE07"
+    },
+    {
+        "Path":  "D:\\NJU\\AgentHistoryManager\\backend\\__init__.py",
+        "Hash":  "16207CC1D4C8DA55A1D81CF522B02FA67E547A726364763AAFFE6B89E824F41D"
+    },
+    {
+        "Path":  "D:\\NJU\\AgentHistoryManager\\backend\\parsers\\claude.py",
+        "Hash":  "017FFF21DE3C888AFC6695AF76F670FAA6C749C3A117E6B8303A9049EDC45E5D"
+    },
+    {
+        "Path":  "D:\\NJU\\AgentHistoryManager\\backend\\parsers\\codex.py",
+        "Hash":  "960EDAA4034F380F4237C90615EE2FA18536162B09AF7B39ADC1C0347B42E452"
+    },
+    {
+        "Path":  "D:\\NJU\\AgentHistoryManager\\backend\\parsers\\__init__.py",
+        "Hash":  "3027BD965966311B7733F4BD3BF996650B01BFD51ADE86E1E24FF5AF13DE3FFF"
+    },
+    {
+        "Path":  "D:\\NJU\\AgentHistoryManager\\backend\\parsers\\__pycache__\\claude.cpython-314.pyc",
+        "Hash":  "45C8577DFF2B6E8FE97D95040FFFEEB5DC8098876C98A56F0B3D3AA1D6B859D1"
+    },
+    {
+        "Path":  "D:\\NJU\\AgentHistoryManager\\backend\\parsers\\__pycache__\\codex.cpython-314.pyc",
+        "Hash":  "C2C8D5E6510C1A0E8A9C1076E94540778554C39C0F093B5B588E6AC44D21E1F7"
+    },
+    {
+        "Path":  "D:\\NJU\\AgentHistoryManager\\backend\\parsers\\__pycache__\\__init__.cpython-314.pyc",
+        "Hash":  "37B432339D6C4E52742FC166A34964E6C5C9EDB690F2E7A8258FB4A9FE6F574B"
+    },
+    {
+        "Path":  "D:\\NJU\\AgentHistoryManager\\backend\\__pycache__\\api.cpython-314.pyc",
+        "Hash":  "2359E686F803A8E7862E4543D13772144B1B912B052571B0982E3214BE2C7080"
+    },
+    {
+        "Path":  "D:\\NJU\\AgentHistoryManager\\backend\\__pycache__\\config.cpython-314.pyc",
+        "Hash":  "139C07876D6EC251D281A7AA527B09B0086CFEBF8B84992FF5FD888DEEEBB2C6"
+    },
+    {
+        "Path":  "D:\\NJU\\AgentHistoryManager\\backend\\__pycache__\\db.cpython-314.pyc",
+        "Hash":  "9F991E472BC7D38A4CDC6661EFCF6D44554BF84D054984CFE9706027DE44D1AD"
+    },
+    {
+        "Path":  "D:\\NJU\\AgentHistoryManager\\backend\\__pycache__\\ingest.cpython-314.pyc",
+        "Hash":  "A7E9B7850C3F1B15C9A28DF733A7BCC89A3263D057A672DADAE387B04029978F"
+    },
+    {
+        "Path":  "D:\\NJU\\AgentHistoryManager\\backend\\__pycache__\\sync.cpython-314.pyc",
+        "Hash":  "3E1FFCFF8E12A08019E569603E7E7C6FB891E879DA48A61185B9788177575820"
+    },
+    {
+        "Path":  "D:\\NJU\\AgentHistoryManager\\backend\\__pycache__\\__init__.cpython-314.pyc",
+        "Hash":  "4E20D45840AB38E59C880E5739E5BC05CDEB5A5BDC2BC5B1CFBA95DCBDA77CD9"
+    },
+    {
+        "Path":  "D:\\NJU\\AgentHistoryManager\\data\\history.sqlite",
+        "Hash":  "E2315709C878E9E8A076EAC7602B0E0AC0AA7078547353B9530A2F5B5C683810"
+    },
+    {
+        "Path":  "D:\\NJU\\AgentHistoryManager\\data\\_test_history.sqlite",
+        "Hash":  "4AF3AF46AC08DADF4890C34DA0BF25F8212B0685C037EFC410F912F7007B4117"
+    },
+    {
+        "Path":  "D:\\NJU\\AgentHistoryManager\\tests\\test_filter.js",
+        "Hash":  "782BD936CAA8CA6966E3A6359AB8EEC92693F73CADC65282F449EBC584CA1405"
+    },
+    {
+        "Path":  "D:\\NJU\\AgentHistoryManager\\tests\\test_ingest.py",
+        "Hash":  "BE9FADB0405042DB022D003616073D27BAF7BECF17A97DDE385E352EA8F087B7"
+    },
+    {
+        "Path":  "D:\\NJU\\AgentHistoryManager\\tests\\test_parsers.py",
+        "Hash":  "D57BFF2A609494D53092970C3D84EA19C356A3B1AF37061777FA647B3AC44343"
+    },
+    {
+        "Path":  "D:\\NJU\\AgentHistoryManager\\web\\app.js",
+        "Hash":  "F725347BE40445F97D5928CB6CBC381C1E20FEFE047192602501356348B53FC4"
+    },
+    {
+        "Path":  "D:\\NJU\\AgentHistoryManager\\web\\filter.js",
+        "Hash":  "D3013D6BE45B62E518B212D528FA38A297D1F1EAEE42D1F12C13B694B3FD1AD5"
+    },
+    {
+        "Path":  "D:\\NJU\\AgentHistoryManager\\web\\index.html",
+        "Hash":  "1FAE5EA7481734B27100733785ADD37D01F9C6DDF9B295CCCD896FDBCFC18994"
+    },
+    {
+        "Path":  "D:\\NJU\\AgentHistoryManager\\web\\styles.css",
+        "Hash":  "285E52194D135247AAE671F04F5CAEDD85A0FDBC654602C5D2DD423160F6DC60"
+    }
+]

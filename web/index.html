@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>AgentHistoryManager</title>
+<link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+<header class="titlebar" role="banner">
+    <div class="titlebar-left">
+        <span class="logo-dot"></span>
+        <span class="title">AgentHistoryManager</span>
+        <span class="muted" id="subtitle">unified history viewer</span>
+    </div>
+    <div class="titlebar-right">
+        <button class="btn ghost" id="btnSync" title="Sync new history (incremental)">Sync</button>
+        <button class="btn ghost" id="btnFull" title="Re-ingest everything">Full Rescan</button>
+        <button class="btn ghost" id="btnRefresh" title="Reload session list">Refresh</button>
+    </div>
+</header>
+
+<main class="layout" role="main">
+    <!-- LEFT: navigation (sources + sessions) -->
+    <aside class="sidebar" aria-label="Sidebar">
+        <section class="sidebar-section">
+            <div class="section-title">
+                <span>Agents</span>
+                <span class="muted small" id="agentStats"></span>
+            </div>
+            <ul class="nav-list" id="sourceList"></ul>
+        </section>
+        <section class="sidebar-section" aria-label="History directories">
+            <div class="section-title">历史记录目录</div>
+            <div id="historyPaths">正在检测历史目录…</div>
+        </section>
+        <section class="sidebar-section grow">
+            <div class="section-title">
+                <span>Sessions</span>
+                <span class="muted small" id="sessionCount"></span>
+            </div>
+            <div class="filter-row">
+                <input type="text" id="search" placeholder="Search cwd, preview, text..." />
+            </div>
+            <div class="filter-row compact">
+                <input type="text" id="cwdFilter" placeholder="Filter by path..." />
+                <input type="date" id="dateFrom" title="From" />
+                <input type="date" id="dateTo" title="To" />
+            </div>
+            <ul class="session-list" id="sessionList"></ul>
+            <div class="pager">
+                <button class="btn tiny ghost" id="prevPage" disabled>&laquo; Prev</button>
+                <span class="muted small" id="pagerInfo">0 of 0</span>
+                <button class="btn tiny ghost" id="nextPage" disabled>Next &raquo;</button>
+            </div>
+        </section>
+    </aside>
+
+    <!-- RIGHT: session detail -->
+    <section class="detail" aria-label="Session detail">
+        <div class="detail-header" id="detailHeader">
+            <div class="detail-title">
+                <span class="muted small" id="detailMeta">Pick a session on the left.</span>
+            </div>
+            <div class="detail-actions">
+                <label class="toggle small" title="When off, only real user/assistant dialog turns are shown. Toggle on to inspect reasoning, tool calls, system events, and the original raw records.">
+                    <input type="checkbox" id="showInternal" />
+                    <span>Show internal records</span>
+                </label>
+            </div>
+        </div>
+        <div class="detail-summary muted small" id="detailSummary" hidden></div>
+        <div class="detail-body" id="detailBody">
+            <div class="empty-state">
+                <div class="empty-glyph">路</div>
+                <div>Select a session to view its messages.</div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- BOTTOM: status bar -->
+<footer class="statusbar" role="contentinfo">
+    <span class="status-item" id="statusSource">Source: -</span>
+    <span class="status-sep"></span>
+    <span class="status-item" id="statusSession">Session: -</span>
+    <span class="status-sep"></span>
+    <span class="status-item" id="statusCount">Messages: 0</span>
+    <span class="status-spacer"></span>
+    <span class="status-item" id="statusLastSync">Last sync: -</span>
+    <span class="status-item muted small" id="statusEngine">engine: rust axum</span>
+</footer>
+
+<!-- Toast region for transient feedback -->
+<div class="toast-region" id="toasts" aria-live="polite"></div>
+
+<!-- AHMFilter (UMD) loaded first so app.js can use the helpers -->
+<script src="/static/filter.js"></script>
+<script src="/static/app.js"></script>
+</body>
+</html>
