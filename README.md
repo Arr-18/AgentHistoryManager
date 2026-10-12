@@ -1,6 +1,5 @@
 # AgentHistoryManager Rust
 
-独立 Rust 后端，迁移自相邻 Python 项目；Python 原项目和原数据库保持只读。
 
 ## 运行
 
